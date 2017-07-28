@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="background" stylesheets="@styleku.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="persegi.panjang.FXMLDocumentController">
+    <children>
+        <Button fx:id="btnhitung" layoutX="346.0" layoutY="240.0" onAction="#handleButtonAction" text="Hitung Luas dan Keliling" />
+        <Label fx:id="label" layoutX="22.0" layoutY="14.0" minHeight="16" minWidth="69" prefHeight="51.0" prefWidth="195.0" styleClass="background" text="MATH.Apps" textFill="#1723d3">
+         <font>
+            <Font size="35.0" />
+         </font></Label>
+      <TextField fx:id="txtjari" layoutX="275.0" layoutY="192.0" prefHeight="37.0" prefWidth="276.0" promptText="Masukkan Jari-jari Lingkaran" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@gambar/lingkaran.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="22.0" layoutY="65.0" text="Aplikasi Perhitungan Matematika || Input and Get Your Result">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="168.0" layoutY="107.0" text="Lingkaran" textFill="#2926da">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="168.0" layoutY="141.0" text="Lingkaran adalah bangun datar dimana setiap titik-titik pada kelilingnya " wrapText="true" />
+      <Label layoutX="167.0" layoutY="160.0" text="mempunyai jarak yang sama dari pusatnya. Jarak ini disebut jari-jari (r)" />
+      <Label fx:id="lblbahas" layoutX="168.0" layoutY="285.0" textFill="#2926da">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblhasil1" layoutX="167.0" layoutY="310.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblhasil2" layoutX="167.0" layoutY="327.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
